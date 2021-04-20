@@ -25,7 +25,7 @@ export function roundResults(roundNumber: number) {
   return allRounds;
 }
 
-let sample = roundResults(10);
+let sample = roundResults(5);
 console.log(sample);
 
 // 1.2. Characterizing Results from 1.1.
@@ -299,6 +299,8 @@ export function count_sumFeatures_Occurence(result: any[]) {
     })
   );
 
+  console.log('testing 0421-1, sumFeatures result, ', result)
+
   let notAllwed = ["results", "round"];
   let reshapedResult = result.map((e: any) =>
     Object.keys(e)
@@ -309,13 +311,13 @@ export function count_sumFeatures_Occurence(result: any[]) {
       }, {})
   );
 
-  // console.log("testing reshapedResults, ", reshapedResult);
+  console.log("testing 0421-2, reshapedResults, ", reshapedResult);
 
-  let mappingResultFeatures = {};
+  let mappingResultFeatures = {}; // attention
   for (let item of reshapedResult) {
     for (let key of Object.keys(item)) {
       if (mappingResultFeatures[key] == null) {
-        mappingResultFeatures[key] = 1;
+        mappingResultFeatures[key] = 0;
       }
       mappingResultFeatures[key] += 1;
     }
@@ -407,10 +409,10 @@ let analyticD3 = count_d_sum_Occurence("d3", num3Results);
 let analyticSum = count_d_sum_Occurence("sum", sumResults);
 let analyticResultFeature = count_sumFeatures_Occurence(sampleResults);
 
-console.log("testing 7", analyticD1);
-console.log("testing 8", analyticD2);
-console.log("testing 9", analyticD3);
-console.log("testing 10", analyticSum);
+// console.log("testing 7", analyticD1);
+// console.log("testing 8", analyticD2);
+// console.log("testing 9", analyticD3);
+// console.log("testing 10", analyticSum);
 console.log("testing 11", analyticResultFeature);
 let userResult = checkUserBettingOption(40, "double", sampleResults);
 console.log("testing 2.5., ", userResult);

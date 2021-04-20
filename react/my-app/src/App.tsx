@@ -93,9 +93,9 @@ export function App() {
               backgroundImage: `url(${background})`,
               backgroundSize: "cover",
               backgroundPosition: "top",
-              height: "600px",
+              height: "670px",
               width: "100%",
-              marginTop: "10px",
+              marginTop: "15px",
               marginLeft: "-260px", 
               marginBottom: "-5px"
             }}
