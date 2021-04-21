@@ -22,7 +22,16 @@ Tech Stack applied:
 <li>https://drive.google.com/file/d/1tMoNpsdBnR4G7YZSZIN6wBMwSQZwkBYQ/view?usp=sharing</li>
 </ul>
 
-3. Running Steps
+3. Screen Snapshots
+<ul>
+<li>Landing Page:<br>https://drive.google.com/file/d/1-zvKv5BP7XasBejvp8_92Z9NyvaUCc9T/view?usp=sharing</li>
+<li>Screen One - Getting Started:<br>https://drive.google.com/file/d/1yFY1RaCYRiLQMVlP1nOUU5JZ6aP3XaKi/view?usp=sharing<br>
+https://drive.google.com/file/d/1Qgsjn7ESR4FgfUBVb8TFGzJvhjr960JH/view?usp=sharing</li>
+<li>Screen Two - Getting Results:<br>https://drive.google.com/file/d/1uTs0GzzJ7LBLPXn5Gd_dckSWKjqtMTd2/view?usp=sharing</li>
+<li>Screen Three - Getting Analytics:<br>https://drive.google.com/file/d/1t-RAGrrzPV2X2DySaHuC8hmUvtHEttXf/view?usp=sharing</li>
+</ul>
+
+4. Running Steps
 <ul>
 <li>
 React/my-app
@@ -40,20 +49,20 @@ Server
 </li>
 </ul>
 
-4. Jest Steps
+5. Jest Steps
 <ul>
 <li>cd server</li>
 <li>yarn jest</li>
 <li>Reference: analytics.test.ts</li>
 </ul>
 
-5. Game Configuration Options for Players
+6. Game Configuration Options for Players
 <ul>
 <li>Round Number</li>
 <li>Betting Options (e.g. Big, Small)</li>
 </ul>
 
-6. Winning Rules
+7. Winning Rules
 <ul>
 <li>
 Round Number Dependent.
@@ -64,7 +73,7 @@ Round Number Dependent.
 </li>
 </ul>
 
-7. Hints For Players (Also Refer to 1. & 2.)
+8. Hints For Players (Also Refer to 1. & 2.)
 <ul>
 <li>
 Game Results

@@ -25,7 +25,7 @@ export function roundResults(roundNumber: number) {
   return allRounds;
 }
 
-let sample = roundResults(5);
+let sample = roundResults(60);
 console.log(sample);
 
 // 1.2. Characterizing Results from 1.1.

@@ -85,6 +85,12 @@
   justify-content: space-between;
 }
 
+.barChartSpacing {
+  display: flex;
+  justify-content: center;
+  margin-left: -280px
+}
+
 .containterScreen3 {
   margin-left: -30px
 }
